@@ -1,0 +1,52 @@
+/* Latin-language typography; photographs and source files remain unchanged. */
+:root{--sans:'Segoe UI',Arial,sans-serif;--serif:Georgia,'Times New Roman',serif}
+body{line-height:1.7}
+p,h1,h2,h3,h4,figcaption,summary,button,a,th,td{overflow-wrap:break-word}
+.reference-edition .opening-title h1{font-size:clamp(27px,2.7vw,41px);line-height:1.3;max-width:26ch;letter-spacing:0}
+.reference-edition .opening-title .eyebrow{letter-spacing:.045em;max-width:65ch}
+.reference-edition .brand{letter-spacing:0}
+.reference-edition .site-header{height:auto;min-height:70px;padding-block:10px;flex-wrap:wrap;column-gap:20px}
+.reference-edition .site-header nav{flex-wrap:wrap;gap:12px 22px}
+.reference-edition #current-scene{max-width:24ch;line-height:1.4;letter-spacing:0}
+.reference-edition .photo-copy>p,.reference-edition .reading-column>p{line-height:1.8;max-width:64ch;hyphens:auto}
+.reference-edition .photo-copy h3{line-height:1.45}
+.reference-edition .scene-heading{grid-template-columns:82px minmax(0,1fr) minmax(0,1.1fr);gap:30px}
+.reference-edition .scene-heading h2{font-size:clamp(26px,2.3vw,34px);line-height:1.35}
+.reference-edition .scene-subtitle{line-height:1.7;letter-spacing:0}
+.reference-edition .scene-intro{line-height:1.8}
+.reference-edition .metadata,.reference-edition .leaf-materials,.reference-edition .archive-comparison figcaption{line-height:1.65;white-space:pre-line;overflow-wrap:anywhere}
+.reference-edition .leaf-ready .leaf-controls{flex-wrap:wrap;gap:8px 18px;font-size:13px}
+.reference-edition .leaf-controls>div{flex-wrap:wrap}
+.reference-edition .leaf-controls button{font-size:14px}
+.reference-edition .excerpt-page{padding:24px}
+.reference-edition .excerpt-body{font-size:16px;line-height:1.75}
+.reference-edition .excerpt-note{font-size:13px;line-height:1.7}
+.reference-edition .excerpt-source{font-size:12px;line-height:1.65}
+.reference-edition .excerpt-page h4{line-height:1.5}
+.reference-edition .archive-kicker{letter-spacing:.035em}
+.reference-edition .archive-introduction h2{line-height:1.35;font-size:clamp(30px,3.5vw,46px)}
+.reference-edition .archive-introduction>p,.reference-edition .archive-chapter-heading>p:last-child{line-height:1.8;max-width:64ch}
+.reference-edition .archive-chapter-heading h2{line-height:1.4}
+.reference-edition .archive-document-reading>h3,.reference-edition .archive-comparison h3{line-height:1.45;font-size:25px}
+.reference-edition .archive-document-reading>p,.reference-edition .archive-comparison-copy>p{line-height:1.8;max-width:62ch;hyphens:auto}
+.reference-edition .archive-quote{font-size:clamp(19px,1.8vw,24px);line-height:1.7;max-width:45ch}
+.reference-edition .archive-capacity th{font-size:14px;line-height:1.6;width:50%;vertical-align:top}
+.reference-edition .archive-capacity caption{line-height:1.65}
+.reference-edition .archive-excerpt-text{font-size:19px;line-height:1.8;max-width:56ch}
+.reference-edition .archive-excerpt-date>span{line-height:1.6}
+.reference-edition .archive-excerpt-body .archive-note{line-height:1.8}
+.reference-edition .archive-image-copy,.reference-edition .archive-original-copy{line-height:1.8}
+.reference-edition .archive-details>summary{line-height:1.6}
+.reference-edition .document-view-controls{gap:10px 24px}
+.reference-edition .viewer-toolbar{flex-wrap:wrap}
+.reference-edition .viewer-toolbar h2{line-height:1.4}
+.reference-edition .viewer-bottom>p{line-height:1.65}
+.reference-edition .viewer-stage.compare figcaption strong{line-height:1.45}
+.reference-edition .comparison-image-tabs button{max-width:42ch;text-align:left;line-height:1.5}
+.reference-edition .contents-scenes a{line-height:1.5;font-size:23px;display:flex;gap:14px}
+.reference-edition .contents-scenes a span{flex-shrink:0}
+.translation-note{font:14px/1.8 var(--sans);margin:20px 0}
+@media(max-width:1150px){.reference-edition #current-scene{display:none}.reference-edition .site-header nav{margin-left:auto}.reference-edition .brand span{display:none}}
+@media(max-width:850px){.reference-edition .scene-heading{display:block}.reference-edition .scene-number{margin-bottom:15px}.reference-edition .scene-intro{margin-top:22px}.reference-edition .archive-document,.reference-edition .archive-document.is-document-comparing{display:flex;flex-direction:column;gap:30px}.reference-edition .is-document-comparing .archive-document-meta{position:static}.reference-edition .archive-excerpt{grid-template-columns:120px minmax(0,1fr);gap:28px}.reference-edition .reading-return{order:3;flex-basis:100%;margin:0;text-align:left}}
+@media(max-width:600px){.reference-edition .site-header{gap:7px 12px;padding:10px 20px;align-items:center}.reference-edition .site-header nav{margin:0 0 0 auto;gap:10px;font-size:12px}.reference-edition .site-header nav a[href="#evidence"]{display:none}.reference-edition .site-header button{font-size:12px}.reference-edition .brand{font-size:14px;white-space:normal;max-width:115px}.reference-edition .opening-title{gap:15px}.reference-edition .opening-title h1{font-size:28px}.reference-edition .opening-date{white-space:normal;min-width:60px}.reference-edition .scene-heading h2{font-size:26px}.reference-edition .archive-excerpt{display:block}.reference-edition .archive-document-reading>h3,.reference-edition .archive-comparison h3{font-size:23px}.reference-edition .archive-introduction h2{font-size:30px}.reference-edition .excerpt-page{padding:18px}.reference-edition .leaf-label-title{font-size:13px}.reference-edition .leaf-ready .leaf-controls{font-size:12px}.reference-edition .archive-excerpt-date{flex-wrap:wrap}.reference-edition .comparison-view-controls{order:3;flex-basis:100%}.reference-edition .viewer-toolbar h2{margin-right:auto}.reference-edition .viewer-stage.compare-single img{height:calc(100dvh - 400px)}.reference-edition footer{flex-wrap:wrap;gap:16px}}
+@media print{.reference-edition .archive-reading{background:white}.reference-edition .site-header{display:none}}
